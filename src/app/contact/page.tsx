@@ -25,14 +25,14 @@ export default function Contact() {
           Fill out the form below with the basics and I&apos;ll follow up by
           email to schedule a free 15-minute consultation call. Please
           don&apos;t include detailed medical or mental health history here
-          &mdash; we&apos;ll talk through that on the call.
+          - we&apos;ll talk through that on the call.
         </p>
       </section>
 
       <section className="grid grid-cols-1 gap-11 border-t border-line px-6 py-16 md:grid-cols-[1.1fr_0.9fr] md:px-[6%]">
         {/*
           TODO before launch: wire `action` up to a real static-form
-          endpoint (e.g. Formspree, Web3Forms) — this is a static export
+          endpoint (e.g. Formspree, Web3Forms) - this is a static export
           with no backend, so the form won't send anywhere until then.
         */}
         <form
@@ -142,7 +142,7 @@ export default function Contact() {
             </h2>
             <p className="text-[0.9rem] leading-[1.6] text-muted">
               Ongoing clients can book and manage sessions directly through
-              the SimplePractice client portal &mdash; check your welcome
+              the SimplePractice client portal - check your welcome
               email for your personal login link.
             </p>
           </div>

@@ -23,7 +23,7 @@ export default function ScrollReveal() {
         for (const entry of entries) {
           if (entry.isIntersecting) {
             entry.target.classList.add("is-visible");
-            // Reveal once, then stop watching — no re-triggering on scroll
+            // Reveal once, then stop watching - no re-triggering on scroll
             // up/down, which is what makes most scroll-reveal feel janky.
             observer.unobserve(entry.target);
           }

@@ -35,7 +35,7 @@ export default function Services() {
             For anxiety, burnout, self-doubt, and the quieter transitions
             that don&apos;t have a name yet. We work through what&apos;s
             keeping you stuck, at a pace that respects where you actually
-            are &mdash; not where you think you&apos;re supposed to be.
+            are - not where you think you&apos;re supposed to be.
           </p>
           <dl className="grid max-w-[420px] grid-cols-[auto_1fr] gap-x-6 gap-y-2 border-t border-line pt-5 text-[0.9rem]">
             <dt className="text-muted">Session length</dt>

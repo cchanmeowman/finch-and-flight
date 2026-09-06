@@ -49,7 +49,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Runs synchronously before body paints. Only once this class is
           present does globals.css hide [data-reveal] elements, so a
           visitor with JS disabled (or where this fails) always sees
-          full content — never a blank/invisible section.
+          full content - never a blank/invisible section.
         */}
         <script
           dangerouslySetInnerHTML={{

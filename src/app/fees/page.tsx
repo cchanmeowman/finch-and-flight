@@ -33,7 +33,7 @@ export default function Fees() {
             <dd>No charge</dd>
           </dl>
           <p className="mt-4 text-[0.85rem] text-muted">
-            Rates placeholder &mdash; replace with actual pricing before
+            Rates placeholder - replace with actual pricing before
             launch.
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function Fees() {
             I&apos;m an out-of-network provider, which means I don&apos;t
             bill insurance directly. Many PPO plans reimburse a portion of
             out-of-network mental health costs. Upon request, I can provide a
-            monthly superbill &mdash; an itemized receipt you can submit to
+            monthly superbill - an itemized receipt you can submit to
             your insurance company for possible reimbursement. I&apos;d
             recommend calling your insurer beforehand to ask about your
             out-of-network mental health benefits.

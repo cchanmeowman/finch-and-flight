@@ -15,7 +15,7 @@ export default function Home() {
           </h1>
           <p className="mb-7 max-w-[44ch] text-[1.02rem] leading-[1.65] text-muted">
             Finch &amp; Flight is a therapy practice for people navigating anxiety,
-            relationship strain, and life transitions &mdash; a steady, unhurried
+            relationship strain, and life transitions - a steady, unhurried
             space to work through what&apos;s actually going on.
           </p>
           <Link href="/contact" className={btnPrimary}>
@@ -81,7 +81,7 @@ export default function Home() {
             Trained in Emotionally Focused Therapy and mindfulness-based
             approaches, with over a decade supporting individuals and couples
             through anxiety, conflict, and change. Sessions are collaborative,
-            not clinical &mdash; you set the pace.
+            not clinical - you set the pace.
           </p>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function Home() {
           fix me immediately. That made all the difference.&rdquo;
         </p>
         <p className="mb-10 text-[0.82rem] text-accent">
-          &mdash; Individual therapy client
+          - Individual therapy client
         </p>
         <div className="grid grid-cols-1 gap-9 border-t border-[#d6d2be] pt-7 md:grid-cols-2">
           <div>
@@ -104,7 +104,7 @@ export default function Home() {
               later we actually look forward to date night again.&rdquo;
             </p>
             <p className="text-[0.78rem] text-[#6b7062]">
-              &mdash; Couples therapy client
+              - Couples therapy client
             </p>
           </div>
           <div>
@@ -114,7 +114,7 @@ export default function Home() {
               therapy.&rdquo;
             </p>
             <p className="text-[0.78rem] text-[#6b7062]">
-              &mdash; Individual therapy client
+              - Individual therapy client
             </p>
           </div>
         </div>

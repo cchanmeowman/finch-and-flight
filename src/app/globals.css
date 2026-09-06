@@ -47,7 +47,7 @@ body {
   Scroll-reveal: only takes effect once JS has confirmed it's running
   (html.js, set synchronously in <head> before paint) and the observer
   is attached. No-JS visitors, and browsers where the observer fails,
-  simply see everything visible immediately — never a hidden state.
+  simply see everything visible immediately - never a hidden state.
 */
 html.js [data-reveal] {
   opacity: 0;

@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "What's the difference between individual and couples therapy here?",
-    a: "Individual therapy focuses on your own patterns, history, and goals. Couples therapy focuses on the relationship itself — the recurring dynamic between two people — using Emotionally Focused Therapy to work through it together.",
+    a: "Individual therapy focuses on your own patterns, history, and goals. Couples therapy focuses on the relationship itself - the recurring dynamic between two people - using Emotionally Focused Therapy to work through it together.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function FAQ() {
       </section>
 
       {/*
-        One reveal for the whole list, not one per row — staggering each
+        One reveal for the whole list, not one per row - staggering each
         accordion item in individually is exactly the over-choreographed
         pattern that reads as clunky.
       */}
