@@ -81,7 +81,7 @@ export default function Home() {
             Trained in Emotionally Focused Therapy and mindfulness-based
             approaches, with over a decade supporting individuals and couples
             through anxiety, conflict, and change. Sessions are collaborative,
-            not clinical - you set the pace.
+            not clinical. You set the pace.
           </p>
         </div>
       </section>

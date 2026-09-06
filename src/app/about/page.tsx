@@ -30,7 +30,7 @@ export default function About() {
             I&apos;m trained in Emotionally Focused Therapy (EFT) and
             mindfulness-based approaches, with over a decade supporting
             individuals and couples through anxiety, conflict, and change.
-            Sessions are collaborative, not clinical - you set the
+            Sessions are collaborative, not clinical. You set the
             pace, and we work at the speed that actually feels honest.
           </p>
         </div>
