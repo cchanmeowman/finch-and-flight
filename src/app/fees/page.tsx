@@ -26,15 +26,16 @@ export default function Fees() {
           <h2 className="mb-3 text-[1.2rem] font-semibold">Session rates</h2>
           <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2.5 text-[0.95rem]">
             <dt className="text-muted">Individual session (50 min)</dt>
-            <dd>$[XXX]</dd>
+            <dd>$140</dd>
             <dt className="text-muted">Couples session (60&ndash;75 min)</dt>
-            <dd>$[XXX]</dd>
+            <dd>$160</dd>
             <dt className="text-muted">Free consultation (15 min)</dt>
             <dd>No charge</dd>
           </dl>
-          <p className="mt-4 text-[0.85rem] text-muted">
-            Rates placeholder - replace with actual pricing before
-            launch.
+          <p className="mt-4 text-[0.9rem] leading-[1.6] text-muted">
+            A limited number of sliding scale slots are available upon
+            request, based on current availability at the time of your
+            consult.
           </p>
         </div>
         <div data-reveal style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}>
