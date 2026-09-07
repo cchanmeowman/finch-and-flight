@@ -130,8 +130,8 @@ export default function Contact() {
                 Psychology Today profile
               </a>
               , or email directly at{" "}
-              <a href="mailto:hello@finchandflighttherapy.com" className={linkAccent}>
-                hello@finchandflighttherapy.com
+              <a href="mailto:christian@finchandflight.com" className={linkAccent}>
+                christian@finchandflight.com
               </a>
               .
             </p>
