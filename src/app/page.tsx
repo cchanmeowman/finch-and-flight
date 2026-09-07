@@ -110,9 +110,13 @@ export default function Home() {
             </p>
             <blockquote className="border-l-2 border-accent-soft pl-5">
               <p className="text-[1.3rem] font-medium leading-[1.4] text-ink text-balance">
-                &ldquo;We are shaped by the environments we come from, but we
-                are not limited to them.&rdquo;
+                &ldquo;Your fear will always be triggered by your creativity,
+                because creativity asks you to enter into the realms of
+                uncertain outcome, and fear hates uncertain outcome.&rdquo;
               </p>
+              <cite className="mt-3 block text-[0.85rem] font-normal not-italic text-muted">
+                &ndash; Elizabeth Gilbert, <em>Big Magic</em>
+              </cite>
             </blockquote>
             <p>
               As humans, we are influenced by our upbringing, culture, family
