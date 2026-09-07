@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { ViewTransition } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { btnSoft } from "@/lib/styles";
+import individualTherapyPhoto from "@/assets/images/individual-therapy.jpg";
+import couplesTherapyPhoto from "@/assets/images/couples-therapy.jpg";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -26,8 +29,14 @@ export default function Services() {
         data-reveal
         className="grid scroll-mt-20 grid-cols-1 gap-11 border-t border-line px-6 py-16 md:grid-cols-[1fr_1.2fr] md:px-[6%]"
       >
-        <div className="placeholder-box aspect-[4/5] flex items-center justify-center text-[0.72rem] uppercase tracking-[0.06em]">
-          Office placeholder
+        <div className="relative aspect-[4/5] overflow-hidden">
+          <Image
+            src={individualTherapyPhoto}
+            alt="Coastal view of Kahana Bay"
+            fill
+            sizes="(min-width: 768px) 40vw, 100vw"
+            className="object-cover"
+          />
         </div>
         <div>
           <h2 className="mb-4 text-[1.6rem] font-semibold">Individual therapy</h2>
@@ -53,8 +62,14 @@ export default function Services() {
         data-reveal
         className="grid scroll-mt-20 grid-cols-1 gap-11 border-t border-line bg-paper-deep px-6 py-16 md:grid-cols-[1fr_1.2fr] md:px-[6%]"
       >
-        <div className="placeholder-box aspect-[4/5] flex items-center justify-center text-[0.72rem] uppercase tracking-[0.06em]">
-          Office placeholder
+        <div className="relative aspect-[4/5] overflow-hidden">
+          <Image
+            src={couplesTherapyPhoto}
+            alt="Haystack Rock at sunset"
+            fill
+            sizes="(min-width: 768px) 40vw, 100vw"
+            className="object-cover"
+          />
         </div>
         <div>
           <h2 className="mb-4 text-[1.6rem] font-semibold">Couples therapy</h2>

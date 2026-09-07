@@ -1,6 +1,9 @@
 import { ViewTransition } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { btnPrimary, btnSoft } from "@/lib/styles";
+import homeHero from "@/assets/images/home-hero.jpg";
+import therapistPortrait from "@/assets/images/therapist-portrait.jpg";
 
 export default function Home() {
   return (
@@ -25,9 +28,18 @@ export default function Home() {
         <div
           data-reveal
           style={{ "--reveal-delay": "0.12s" } as React.CSSProperties}
-          className="placeholder-box flex min-h-[280px] items-center justify-center text-[0.72rem] uppercase tracking-[0.06em] md:min-h-full"
+          className="flex md:pr-[6%]"
         >
-          Portrait placeholder
+          <div className="relative min-h-[280px] w-full md:min-h-0">
+            <Image
+              src={homeHero}
+              alt="Sunset over the water at the beach"
+              fill
+              priority
+              sizes="(min-width: 768px) 45vw, 100vw"
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
@@ -63,26 +75,73 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 items-center gap-11 px-6 py-16 md:grid-cols-[1fr_1.3fr] md:px-[6%]">
-        <div
-          data-reveal
-          className="placeholder-box aspect-[4/5] flex items-center justify-center text-[0.72rem] uppercase tracking-[0.06em]"
-        >
-          Portrait placeholder
+      <section className="grid grid-cols-1 items-start gap-11 px-6 py-16 md:grid-cols-[1fr_1.6fr] md:px-[6%]">
+        <div className="md:sticky md:top-24">
+          <div data-reveal className="relative aspect-[4/5] overflow-hidden">
+            <Image
+              src={therapistPortrait}
+              alt="Christian, your therapist"
+              fill
+              sizes="(min-width: 768px) 30vw, 100vw"
+              className="object-cover"
+            />
+          </div>
         </div>
         <div data-reveal style={{ "--reveal-delay": "0.1s" } as React.CSSProperties}>
           <p className="mb-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-accent">
             About your therapist
           </p>
-          <h2 className="mb-4 max-w-[16ch] text-[1.7rem] font-semibold text-balance">
-            Grounded in relational and somatic work.
+          <h2 className="mb-4 max-w-[20ch] text-[1.7rem] font-semibold text-balance">
+            Grounded in relational and systemic work
           </h2>
-          <p className="max-w-[52ch] leading-[1.65] text-muted">
-            Trained in Emotionally Focused Therapy and mindfulness-based
-            approaches, with over a decade supporting individuals and couples
-            through anxiety, conflict, and change. Sessions are collaborative,
-            not clinical. You set the pace.
-          </p>
+          <div className="max-w-[58ch] flex flex-col gap-5 leading-[1.65] text-muted">
+            <p>
+              At its core, Finch &amp; Flight reflects how I understand the
+              work of therapy.
+            </p>
+            <p>
+              The finch refers to the 18 species of finches found across the
+              Gal&aacute;pagos Islands that helped inspire Charles
+              Darwin&apos;s theory of natural selection. While each species
+              adapted to the environment in which it lived, the larger
+              takeaway is one that I find deeply relevant to therapy - we are
+              shaped by the environments we come from, but we are not limited
+              to them.
+            </p>
+            <blockquote className="border-l-2 border-accent-soft pl-5">
+              <p className="text-[1.3rem] font-medium leading-[1.4] text-ink text-balance">
+                &ldquo;We are shaped by the environments we come from, but we
+                are not limited to them.&rdquo;
+              </p>
+            </blockquote>
+            <p>
+              As humans, we are influenced by our upbringing, culture, family
+              dynamics, communities, and the significant experiences that
+              shape our lives (including loss, divorce, immigration, and
+              other moments of significant change). Over time, we develop
+              ways of understanding ourselves and relating to others that
+              help us navigate the worlds around us.
+            </p>
+            <p>
+              Flight represents the possibility of moving beyond those
+              original environments. It represents the freedom to explore
+              new ways of relating to ourselves, our relationships, and
+              ultimately how we view the world. At its core, this is the
+              optimism I bring into each therapy session with you: that
+              while our pasts matter, they do not have to determine where we
+              go next.
+            </p>
+            <p>
+              With change being this constant, it&apos;s no wonder it is so
+              often associated with emotions of anxiety, uncertainty, and
+              exhaustion. My hope is that together we can begin to relate to
+              change differently - not so much as something to fear or
+              resist, but as a natural part of being human. We are
+              continually evolving, and I hope our work together can offer a
+              space to slow down, become curious about that process, and
+              intentionally decide what comes next.
+            </p>
+          </div>
         </div>
       </section>
 
