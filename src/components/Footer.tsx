@@ -7,8 +7,8 @@ export default function Footer() {
         &copy; {new Date().getFullYear()} Finch &amp; Flight Psychotherapy &middot; Seattle, WA
       </span>
       <span className="flex flex-wrap gap-x-6 gap-y-1">
-        <a href="mailto:hello@finchandflighttherapy.com" className="transition-colors duration-200 ease-out hover:text-dark-ink">
-          hello@finchandflighttherapy.com
+        <a href="mailto:christian@finchandflight.com" className="transition-colors duration-200 ease-out hover:text-dark-ink">
+          christian@finchandflight.com
         </a>
         <Link href="/contact" className="transition-colors duration-200 ease-out hover:text-dark-ink">
           Contact

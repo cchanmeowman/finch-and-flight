@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How do I get started?",
-    a: "Reach out through the contact form or send an email. We'll schedule a free 15-minute consultation call to talk through what's bringing you to therapy and see if it's a good fit before booking a first full session.",
+    a: "Send an email through the contact page. We'll schedule a free 15-minute consultation call to talk through what's bringing you to therapy and see if it's a good fit before booking a first full session.",
   },
   {
     q: "Do you offer online sessions?",
