@@ -39,7 +39,11 @@ const jsonLd = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${nohemi.variable} h-full antialiased`}>
+    <html
+      lang="en"
+      className={`${nohemi.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
       <head>
         <script
           type="application/ld+json"

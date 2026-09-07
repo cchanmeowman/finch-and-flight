@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import FinchMark from "@/components/icons/FinchMark";
 
 const links = [
   { href: "/about", label: "About" },
@@ -37,7 +38,8 @@ export default function Nav() {
           : "border-transparent shadow-none"
       }`}
     >
-      <Link href="/" className="font-semibold text-lg">
+      <Link href="/" className="flex items-center gap-2.5 font-semibold text-lg">
+        <FinchMark className="h-6 w-auto text-ink" />
         Finch &amp; Flight
       </Link>
       <div className="flex items-center gap-8">
