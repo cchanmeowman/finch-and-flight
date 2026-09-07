@@ -15,11 +15,13 @@ export default function About() {
   return (
     <ViewTransition>
       <section className="grid grid-cols-1 items-center gap-11 px-6 py-16 md:grid-cols-[1fr_1.3fr] md:px-[6%]">
-        <div data-reveal className="relative aspect-[4/5] overflow-hidden">
+        <div className="relative aspect-[4/5] overflow-hidden">
           <Image
             src={aboutPortrait}
             alt="Christian at Mount Rainier"
             fill
+            priority
+            placeholder="blur"
             sizes="(min-width: 768px) 40vw, 100vw"
             className="object-cover"
           />

@@ -34,6 +34,7 @@ export default function Services() {
             src={individualTherapyPhoto}
             alt="Coastal view of Kahana Bay"
             fill
+            placeholder="blur"
             sizes="(min-width: 768px) 40vw, 100vw"
             className="object-cover"
           />
@@ -67,6 +68,7 @@ export default function Services() {
             src={couplesTherapyPhoto}
             alt="Haystack Rock at sunset"
             fill
+            placeholder="blur"
             sizes="(min-width: 768px) 40vw, 100vw"
             className="object-cover"
           />

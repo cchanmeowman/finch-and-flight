@@ -25,17 +25,14 @@ export default function Home() {
             Request a free 15-min consult
           </Link>
         </div>
-        <div
-          data-reveal
-          style={{ "--reveal-delay": "0.12s" } as React.CSSProperties}
-          className="flex md:pr-[6%]"
-        >
+        <div className="flex md:pr-[6%]">
           <div className="relative min-h-[280px] w-full md:min-h-0">
             <Image
               src={homeHero}
               alt="Sunset over the water at the beach"
               fill
               priority
+              placeholder="blur"
               sizes="(min-width: 768px) 45vw, 100vw"
               className="object-cover"
             />
@@ -82,6 +79,7 @@ export default function Home() {
               src={therapistPortrait}
               alt="Christian, your therapist"
               fill
+              placeholder="blur"
               sizes="(min-width: 768px) 30vw, 100vw"
               className="object-cover"
             />
