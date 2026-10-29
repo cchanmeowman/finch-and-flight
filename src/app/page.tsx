@@ -11,15 +11,13 @@ export default function Home() {
       <section className="grid grid-cols-1 items-stretch md:grid-cols-[1.15fr_0.85fr]">
         <div data-reveal className="flex flex-col justify-center px-6 py-14 md:px-[6%] md:py-16">
           <p className="mb-4 text-[0.76rem] font-semibold uppercase tracking-[0.1em] text-accent">
-            Individual &amp; couples therapy &middot; Seattle &amp; online in WA
+            Individual &amp; couples therapy &middot; Online for clients based in Seattle and WA state
           </p>
           <h1 className="mb-5 max-w-[13ch] text-[2.6rem] font-semibold leading-[1.1] tracking-[-0.01em] text-balance">
-            Room to slow down and be honest with yourself.
+            <strong>Come as you are. Grow from there.</strong>
           </h1>
           <p className="mb-7 max-w-[44ch] text-[1.02rem] leading-[1.65] text-muted">
-            Finch &amp; Flight is a therapy practice for people navigating anxiety,
-            relationship strain, and life transitions - a steady, unhurried
-            space to work through what&apos;s actually going on.
+            <strong>Finch &amp; Flight is a therapy practice for people navigating anxiety, relationship strain, and life transitions — a steady, unhurried space to work through what&apos;s actually going on.</strong>
           </p>
           <Link href="/contact" className={btnPrimary}>
             Request a free 15-min consult
