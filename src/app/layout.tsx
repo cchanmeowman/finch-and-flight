@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Finch & Flight Psychotherapy",
   },
   description:
-    "Individual and couples therapy in Seattle and online across Washington. A steady, unhurried space to work through what's actually going on.",
+    "Online-based individual therapy and couples therapy for those living in Seattle and the greater Washington state area.",
 };
 
 const jsonLd = {

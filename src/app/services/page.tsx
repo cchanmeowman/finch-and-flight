@@ -41,17 +41,11 @@ export default function Services() {
         </div>
         <div>
           <h2 className="mb-4 text-[1.6rem] font-semibold">Individual therapy</h2>
-          <p className="mb-6 max-w-[54ch] leading-[1.65] text-muted">
-            For anxiety, burnout, self-doubt, and the quieter transitions
-            that don&apos;t have a name yet. We work through what&apos;s
-            keeping you stuck, at a pace that respects where you actually
-            are - not where you think you&apos;re supposed to be.
-          </p>
           <dl className="grid max-w-[420px] grid-cols-[auto_1fr] gap-x-6 gap-y-2 border-t border-line pt-5 text-[0.9rem]">
             <dt className="text-muted">Session length</dt>
-            <dd>50 minutes</dd>
+            <dd>53 minutes</dd>
             <dt className="text-muted">Format</dt>
-            <dd>In-person or video</dd>
+            <dd>Virtual</dd>
             <dt className="text-muted">Frequency</dt>
             <dd>Weekly, to start</dd>
           </dl>
