@@ -47,77 +47,80 @@ export default function About() {
         <div className="md:sticky md:top-24">
           <div data-reveal>
             <h2 className="mb-3 text-[1.3rem] font-semibold">Training &amp; credentials</h2>
-            <ul className="flex flex-col gap-2 text-[0.95rem] leading-[1.6] text-muted">
-              <li>Licensed Marriage and Family Therapist (LMFT), Washington State</li>
-              <li>Certified in Emotionally Focused Therapy (EFT)</li>
-              <li>Training in mindfulness-based and somatic approaches</li>
-              <li>10+ years supporting individuals and couples</li>
-            </ul>
+            <p className="text-[0.95rem] leading-[1.6] text-muted">
+              <strong>
+                Licensed Marriage and Family Therapist (LMFT) in Washington
+                State · Training in Cognitive Processing Therapy (CPT) ·
+                Modalities: Acceptance and Commitment Therapy (ACT), Cognitive
+                Behavioral Therapy (CBT), Emotionally Focused Therapy, Gottman
+                Couples Therapy, Family Systems Therapy · License Number:{" "}
+                <a href="http://mft.lf/" className="underline">
+                  MFT.LF.70154532
+                </a>{" "}
+                · NPI Number: 1558192740
+              </strong>
+            </p>
           </div>
         </div>
         <div data-reveal style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}>
           <h2 className="mb-3 text-[1.3rem] font-semibold">How I work</h2>
           <div className="flex max-w-[62ch] flex-col gap-5 text-[0.95rem] leading-[1.6] text-muted">
             <p>
-              My name is Christian, and I am a licensed marriage and family
-              therapist serving clients throughout Washington state.
+              <strong>
+                Hello! My name is Christian and I am a couples and family
+                therapist.
+              </strong>
             </p>
             <p>
-              As a fourth-generation Asian American who grew up in Los
-              Angeles, my path into therapy was shaped in part by witnessing
-              the mental health challenges within my own community. These
-              experiences inspired me to pursue work that makes therapy more
-              accessible, culturally responsive, and grounded in an
-              understanding of the many factors that shape how we experience
-              ourselves and our relationships.
+              <strong>
+                I work with individuals and couples across a range of life
+                stages. I also support clients navigating emotional distress,
+                relational challenges, and personal growth. As a
+                systemically-trained therapist, I see our work through the
+                lens of various identities that can influence one’s
+                experience, including culture, relationship/family of origin
+                dynamics, religion, and queer identities. I look to create a
+                therapeutic space grounded in warmth, humility, humor, and
+                curiosity. I believe that meaningful change is rooted in the
+                strength of the therapeutic relationship and works to build
+                trust so clients feel safe exploring both challenges and
+                growth.
+              </strong>
             </p>
             <p>
-              I work with individuals and couples navigating anxiety,
-              depression, relationship difficulties, life transitions,
-              identity, and personal growth. I am particularly passionate
-              about working with clients exploring culture, identity, and
-              relationships - including those from multicultural and diverse
-              backgrounds. With clients, I take an eclectic and collaborative
-              approach, tailoring therapy to each client&apos;s needs. I
-              primarily draw from Acceptance and Commitment Therapy (ACT),
-              Cognitive Behavioral Therapy (CBT), Emotionally Focused Therapy
-              (EFT), Gottman Method Couples Therapy, Narrative Therapy, and
-              Strategic Therapy. My approach aims to help clients better
-              understand themselves, their patterns, and their relationships,
-              all while fostering a deeper connection and emotional awareness
-              with themselves. I integrate introspective questioning with
-              humor, both of which create a space that feels meaningful and
-              approachable. Clients often experience me as engaged,
-              supportive, and authentic, and I see my role in the therapy
-              room as someone who can gently challenge clients while walking
-              alongside them in their own unique process of change.
-            </p>
-            <blockquote className="border-l-2 border-accent-soft pl-5">
-              <p className="text-[1.3rem] font-medium leading-[1.4] text-ink text-balance">
-                &ldquo;I see my role in the therapy room as someone who can
-                gently challenge clients while walking alongside them in
-                their own unique process of change.&rdquo;
-              </p>
-            </blockquote>
-            <p>
-              My approach to therapy has been shaped by previous experience
-              in early childhood education, college support programs, crisis
-              intervention, and hospital-based settings. In these roles, I
-              worked closely with neurodivergent college students, young
-              families, and individuals experiencing acute mental health
-              crises. These experiences deepened my understanding of the
-              varied ways people navigate their stress, development, and
-              healing, and reinforced the importance of meeting clients with
-              respect for their unique contexts. I began providing therapy
-              services in 2023, and continue to draw from these
-              interdisciplinary experiences to inform a responsive,
-              client-centered approach to care.
+              <strong>
+                With clients, I take a collaborative approach, tailoring
+                therapy to each client’s needs. I use a mix of systemic and
+                relational therapy approaches (Gottman Couples Therapy,
+                Emotionally-focused Therapy), in addition to Cognitive
+                Behavioral Therapy (CBT), Acceptance and Commitment Therapy
+                (ACT), and humanistic therapy in my work.
+              </strong>
             </p>
             <p>
-              I graduated with a Master of Arts in Couple and Family Therapy
-              from Seattle University, and am currently a licensed marriage
-              and family therapist in Washington state (MFT.LF.70154532). My
-              NPI number is 1558192740.
+              <strong>
+                My approach aims to help clients better understand themselves,
+                their patterns, and their relationships, while fostering
+                deeper connection and emotional awareness. I integrate
+                introspective questioning with humor, and seek to create a
+                space that feels meaningful and approachable. Clients often
+                experience me as engaged, supportive, and authentic – someone
+                who gently challenges them while walking alongside them in
+                their own unique process of change.
+              </strong>
+            </p>
+            <p>
+              <strong>
+                To play the role of healer is a privilege that I don’t take
+                lightly. My previous clients have included couples, families,
+                and individuals, all who ultimately seek me out in search of
+                a desire to grow in the way they experience themselves, their
+                relationships, and how they view the world. I believe each of
+                us deserves the opportunity to experience ourselves and the
+                world in a way that is motivated by curiosity and not fear,
+                and I hold an optimistic stance to assisting my clients in
+                moving more in line to their desired lives they seek to live.
+              </strong>
             </p>
           </div>
         </div>
