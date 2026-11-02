@@ -149,32 +149,34 @@ export default function Home() {
         <p className="mb-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-accent">
           What clients say
         </p>
-        <p className="mb-3.5 max-w-[34ch] text-[1.55rem] font-medium leading-[1.42]">
-          &ldquo;I finally felt like someone was listening without trying to
-          fix me immediately. That made all the difference.&rdquo;
-        </p>
-        <p className="mb-10 text-[0.82rem] text-accent">
-          - Individual therapy client
-        </p>
+        <p
+          aria-hidden="true"
+          className="mb-3.5 min-h-[6rem] max-w-[34ch] text-[1.55rem] font-medium leading-[1.42]"
+        />
+        <p
+          aria-hidden="true"
+          className="mb-10 min-h-[1.25rem] text-[0.82rem] text-accent"
+        />
         <div className="grid grid-cols-1 gap-9 border-t border-[#d6d2be] pt-7 md:grid-cols-2">
           <div>
-            <p className="mb-2 text-[0.92rem] leading-[1.55] text-muted">
-              &ldquo;We came in barely speaking to each other. Six months
-              later we actually look forward to date night again.&rdquo;
-            </p>
-            <p className="text-[0.78rem] text-[#6b7062]">
-              - Couples therapy client
-            </p>
+            <p
+              aria-hidden="true"
+              className="mb-2 min-h-[3rem] text-[0.92rem] leading-[1.55] text-muted"
+            />
+            <p
+              aria-hidden="true"
+              className="min-h-[1.25rem] text-[0.78rem] text-[#6b7062]"
+            />
           </div>
           <div>
-            <p className="mb-2 text-[0.92rem] leading-[1.55] text-muted">
-              &ldquo;Practical, warm, and never judgmental. I recommend Finch
-              &amp; Flight to anyone on the fence about starting
-              therapy.&rdquo;
-            </p>
-            <p className="text-[0.78rem] text-[#6b7062]">
-              - Individual therapy client
-            </p>
+            <p
+              aria-hidden="true"
+              className="mb-2 min-h-[3rem] text-[0.92rem] leading-[1.55] text-muted"
+            />
+            <p
+              aria-hidden="true"
+              className="min-h-[1.25rem] text-[0.78rem] text-[#6b7062]"
+            />
           </div>
         </div>
       </section>
