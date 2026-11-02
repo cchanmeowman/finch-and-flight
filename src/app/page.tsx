@@ -145,40 +145,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section data-reveal className="bg-paper-deep px-6 py-16 md:px-[6%]">
-        <p className="mb-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-accent">
-          What clients say
-        </p>
-        <p className="mb-3.5 max-w-[34ch] text-[1.55rem] font-medium leading-[1.42]">
-          &ldquo;I finally felt like someone was listening without trying to
-          fix me immediately. That made all the difference.&rdquo;
-        </p>
-        <p className="mb-10 text-[0.82rem] text-accent">
-          - Individual therapy client
-        </p>
-        <div className="grid grid-cols-1 gap-9 border-t border-[#d6d2be] pt-7 md:grid-cols-2">
-          <div>
-            <p className="mb-2 text-[0.92rem] leading-[1.55] text-muted">
-              &ldquo;We came in barely speaking to each other. Six months
-              later we actually look forward to date night again.&rdquo;
-            </p>
-            <p className="text-[0.78rem] text-[#6b7062]">
-              - Couples therapy client
-            </p>
-          </div>
-          <div>
-            <p className="mb-2 text-[0.92rem] leading-[1.55] text-muted">
-              &ldquo;Practical, warm, and never judgmental. I recommend Finch
-              &amp; Flight to anyone on the fence about starting
-              therapy.&rdquo;
-            </p>
-            <p className="text-[0.78rem] text-[#6b7062]">
-              - Individual therapy client
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section
         data-reveal
         className="flex flex-wrap items-center justify-between gap-6 bg-dark px-6 py-14 text-dark-ink md:px-[6%]"
