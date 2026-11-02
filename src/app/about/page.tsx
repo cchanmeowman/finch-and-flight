@@ -47,19 +47,35 @@ export default function About() {
         <div className="md:sticky md:top-24">
           <div data-reveal>
             <h2 className="mb-3 text-[1.3rem] font-semibold">Training &amp; credentials</h2>
-            <p className="text-[0.95rem] leading-[1.6] text-muted">
-              <strong>
-                Licensed Marriage and Family Therapist (LMFT) in Washington
-                State · Training in Cognitive Processing Therapy (CPT) ·
-                Modalities: Acceptance and Commitment Therapy (ACT), Cognitive
-                Behavioral Therapy (CBT), Emotionally Focused Therapy, Gottman
-                Couples Therapy, Family Systems Therapy · License Number:{" "}
-                <a href="http://mft.lf/" className="underline">
-                  MFT.LF.70154532
-                </a>{" "}
-                · NPI Number: 1558192740
-              </strong>
-            </p>
+            <div className="flex flex-col gap-2 text-[0.95rem] leading-[1.6] text-muted">
+              <p>
+                <strong>
+                  · Licensed Marriage and Family Therapist (LMFT) in
+                  Washington State
+                </strong>
+              </p>
+              <p>
+                <strong>
+                  · Training in Cognitive Processing Therapy (CPT)
+                </strong>
+              </p>
+              <p>
+                <strong>
+                  · Modalities: Acceptance and Commitment Therapy (ACT),
+                  Cognitive Behavioral Therapy (CBT), Emotionally Focused
+                  Therapy, Gottman Couples Therapy, Family Systems Therapy ·
+                </strong>
+              </p>
+              <p>
+                <strong>
+                  · License Number:{" "}
+                  <a href="http://mft.lf/" className="underline">
+                    MFT.LF
+                  </a>
+                  .70154532 · NPI Number: 1558192740
+                </strong>
+              </p>
+            </div>
           </div>
         </div>
         <div data-reveal style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}>
