@@ -63,7 +63,7 @@ export default function About() {
                 <strong>
                   · Modalities: Acceptance and Commitment Therapy (ACT),
                   Cognitive Behavioral Therapy (CBT), Emotionally Focused
-                  Therapy, Gottman Couples Therapy, Family Systems Therapy ·
+                  Therapy, Gottman Couples Therapy, Family Systems Therapy
                 </strong>
               </p>
               <p>
