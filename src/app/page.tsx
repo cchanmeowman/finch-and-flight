@@ -85,15 +85,31 @@ export default function Home() {
         </div>
         <div data-reveal style={{ "--reveal-delay": "0.1s" } as React.CSSProperties}>
           <p className="mb-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-accent">
-            About your therapist
+            Grounded in relational work
           </p>
           <h2 className="mb-4 max-w-[20ch] text-[1.7rem] font-semibold text-balance">
-            Grounded in relational and systemic work
+            Grounded in relational work
           </h2>
           <div className="max-w-[58ch] flex flex-col gap-5 leading-[1.65] text-muted">
             <p>
-              At its core, Finch &amp; Flight reflects how I understand the
-              work of therapy.
+              <strong>
+                I&apos;m a systemically trained therapist with experience
+                supporting individuals and couples as they navigate life
+                transitions, relationship challenges, and the desire for
+                healthier, more fulfilling ways of relating to themselves and
+                those they love.
+              </strong>
+            </p>
+            <p>
+              <strong>
+                I bring a collaborative, person-centered approach to therapy
+                and strive to create a space that feels supportive, engaged,
+                and authentic. Clients can expect warmth and curiosity
+                alongside gentle challenges as we work together to better
+                understand longstanding patterns, explore new possibilities,
+                and develop more intentional ways of relating to themselves
+                and the important people in their lives.
+              </strong>
             </p>
             <p>
               The finch refers to the 18 species of finches found across the
