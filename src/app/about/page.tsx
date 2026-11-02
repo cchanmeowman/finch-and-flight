@@ -147,7 +147,7 @@ export default function About() {
         className="flex flex-wrap items-center justify-between gap-6 bg-dark px-6 py-14 text-dark-ink md:px-[6%]"
       >
         <h2 className="max-w-[24ch] text-[1.5rem] font-semibold text-balance">
-          Curious if this is a good fit? Let&apos;s talk it through first.
+          Curious if this is a good fit? Let&apos;s talk!
         </h2>
         <Link href="/contact" className={btnSoft}>
           Request a free 15-min consult
