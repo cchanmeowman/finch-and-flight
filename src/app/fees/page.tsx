@@ -17,21 +17,18 @@ export default function Fees() {
           Fees &amp; insurance
         </p>
         <h1 className="max-w-[22ch] text-[2.1rem] font-semibold text-balance">
-          Straightforward pricing, no surprises.
+          Session rates, insurance, and Good Faith Estimate information for
+          Finch &amp; Flight Psychotherapy
         </h1>
       </section>
 
       <section className="grid grid-cols-1 gap-11 border-t border-line px-6 py-16 md:grid-cols-2 md:px-[6%]">
         <div data-reveal>
           <h2 className="mb-3 text-[1.2rem] font-semibold">Session rates</h2>
-          <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2.5 text-[0.95rem]">
-            <dt className="text-muted">Individual session (50 min)</dt>
-            <dd>$140</dd>
-            <dt className="text-muted">Couples session (60&ndash;75 min)</dt>
-            <dd>$160</dd>
-            <dt className="text-muted">Free consultation (15 min)</dt>
-            <dd>No charge</dd>
-          </dl>
+          <p className="text-[0.95rem] leading-[1.6]">
+            Individual session (53 min): $150 · Couples session (53 min):
+            $150 · Free consultation (15 min): No charge
+          </p>
           <p className="mt-4 text-[0.9rem] leading-[1.6] text-muted">
             A limited number of sliding scale slots are available upon
             request, based on current availability at the time of your
@@ -41,13 +38,21 @@ export default function Fees() {
         <div data-reveal style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}>
           <h2 className="mb-3 text-[1.2rem] font-semibold">Insurance</h2>
           <p className="text-[0.95rem] leading-[1.6] text-muted">
-            I&apos;m an out-of-network provider, which means I don&apos;t
-            bill insurance directly. Many PPO plans reimburse a portion of
-            out-of-network mental health costs. Upon request, I can provide a
-            monthly superbill - an itemized receipt you can submit to
-            your insurance company for possible reimbursement. I&apos;d
-            recommend calling your insurer beforehand to ask about your
-            out-of-network mental health benefits.
+            <strong>
+              I&apos;m currently an out-of-network provider, which means I
+              don&apos;t bill insurance directly. Upon request, I can provide
+              a monthly superbill, or an itemized receipt you can submit to
+              your insurance company for possible reimbursement. I&apos;d
+              recommend calling your insurer beforehand to ask about your
+              out-of-network mental health benefits.
+            </strong>
+          </p>
+          <p className="mt-4 text-[0.95rem] leading-[1.6] text-muted">
+            <strong>
+              I am in the process of being in-network with several commercial
+              insurance plans, including Aetna, UHC, Cigna, Regence, and a
+              handful of other providers.
+            </strong>
           </p>
         </div>
       </section>
