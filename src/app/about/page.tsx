@@ -33,13 +33,6 @@ export default function About() {
           <h1 className="mb-5 max-w-[16ch] text-[2.1rem] font-semibold text-balance">
             Grounded in relational and somatic work.
           </h1>
-          <p className="max-w-[54ch] leading-[1.65] text-muted">
-            I&apos;m trained in Emotionally Focused Therapy (EFT) and
-            mindfulness-based approaches, with over a decade supporting
-            individuals and couples through anxiety, conflict, and change.
-            Sessions are collaborative, not clinical. You set the
-            pace, and we work at the speed that actually feels honest.
-          </p>
         </div>
       </section>
 
