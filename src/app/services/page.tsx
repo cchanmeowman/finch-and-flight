@@ -88,11 +88,11 @@ export default function Services() {
           </p>
           <dl className="grid max-w-[420px] grid-cols-[auto_1fr] gap-x-6 gap-y-2 border-t border-line pt-5 text-[0.9rem]">
             <dt className="text-muted">Session length</dt>
-            <dd>60&ndash;75 minutes</dd>
+            <dd>53 minutes</dd>
             <dt className="text-muted">Format</dt>
-            <dd>In-person or video</dd>
-            <dt className="text-muted">Approach</dt>
-            <dd>Emotionally Focused Therapy</dd>
+            <dd>Video</dd>
+            <dt className="text-muted">Frequency</dt>
+            <dd>Weekly, to start</dd>
           </dl>
         </div>
       </section>
