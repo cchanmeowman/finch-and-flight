@@ -11,7 +11,7 @@ export default function Home() {
       <section className="grid grid-cols-1 items-stretch md:grid-cols-[1.15fr_0.85fr]">
         <div data-reveal className="flex flex-col justify-center px-6 py-14 md:px-[6%] md:py-16">
           <p className="mb-4 text-[0.76rem] font-semibold uppercase tracking-[0.1em] text-accent">
-            Individual &amp; couples therapy &middot; Online for clients based in Seattle and WA state
+            Individual &amp; couples therapy &middot; Teletherapy for clients based in Seattle and WA state
           </p>
           <h1 className="mb-5 max-w-[13ch] text-[2.6rem] font-semibold leading-[1.1] tracking-[-0.01em] text-balance">
             <strong>Come as you are. Grow from there.</strong>
