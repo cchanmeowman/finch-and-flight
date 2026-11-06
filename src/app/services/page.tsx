@@ -43,12 +43,10 @@ export default function Services() {
           <h2 className="mb-4 text-[1.6rem] font-semibold">Individual therapy</h2>
           <div className="mb-6 max-w-[54ch] flex flex-col gap-4 leading-[1.65] text-muted">
             <p>
-              Individual therapy offers an opportunity to better understand
-              the experiences, beliefs, and relational patterns that have
-              shaped you. Through reflection and exploration, we work to
-              challenge familiar narratives and make room for new ways of
-              thinking, feeling, and being that better reflect who you want
-              to become.
+              A focus on better understanding the experiences, beliefs, and
+              relational patterns that have shaped you. Exploration of
+              familiar narratives to make room for a more updated sense of
+              who you are now and who you wish to become.
             </p>
             <p>
               Modalities include ACT, CBT, Strategic Therapy, and Humanistic
