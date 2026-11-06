@@ -49,12 +49,15 @@ export default function Home() {
           <p className="mb-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-accent">
             Individual therapy
           </p>
-          <h3 className="mb-2.5 text-[1.2rem] font-semibold">
-            For the quieter transitions
-          </h3>
+          <h3
+            aria-hidden="true"
+            className="mb-2.5 text-[1.2rem] font-semibold"
+          />
           <p className="text-[0.94rem] leading-[1.6] text-muted">
-            Anxiety, burnout, self-doubt, and change that doesn&apos;t have a
-            name yet. Weekly, 50-minute sessions, in-person or by video.
+            A focus on better understanding the experiences, beliefs, and
+            relational patterns that have shaped you. Exploration of familiar
+            narratives to make room for a more updated sense of who you are
+            now and who you wish to become.
           </p>
         </div>
         <div
@@ -65,13 +68,14 @@ export default function Home() {
           <p className="mb-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.1em] text-accent">
             Couples therapy
           </p>
-          <h3 className="mb-2.5 text-[1.2rem] font-semibold">
-            For partners rebuilding trust
-          </h3>
+          <h3
+            aria-hidden="true"
+            className="mb-2.5 text-[1.2rem] font-semibold"
+          />
           <p className="text-[0.94rem] leading-[1.6] text-muted">
             For couples stuck in the same argument, working through betrayal,
-            or wanting a stronger foundation before a big step. 60&ndash;75
-            minute sessions.
+            or wanting a stronger foundation before taking the next step in
+            their relationship.
           </p>
         </div>
       </section>
