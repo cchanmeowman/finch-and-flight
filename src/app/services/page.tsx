@@ -41,6 +41,20 @@ export default function Services() {
         </div>
         <div>
           <h2 className="mb-4 text-[1.6rem] font-semibold">Individual therapy</h2>
+          <div className="mb-6 max-w-[54ch] flex flex-col gap-4 leading-[1.65] text-muted">
+            <p>
+              Individual therapy offers an opportunity to better understand
+              the experiences, beliefs, and relational patterns that have
+              shaped you. Through reflection and exploration, we work to
+              challenge familiar narratives and make room for new ways of
+              thinking, feeling, and being that better reflect who you want
+              to become.
+            </p>
+            <p>
+              Modalities include ACT, CBT, Strategic Therapy, and Humanistic
+              Therapy.
+            </p>
+          </div>
           <dl className="grid max-w-[420px] grid-cols-[auto_1fr] gap-x-6 gap-y-2 border-t border-line pt-5 text-[0.9rem]">
             <dt className="text-muted">Session length</dt>
             <dd>53 minutes</dd>
