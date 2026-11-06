@@ -17,7 +17,13 @@ export default function Home() {
             <strong>Come as you are. Grow from there.</strong>
           </h1>
           <p className="mb-7 max-w-[44ch] text-[1.02rem] leading-[1.65] text-muted">
-            <strong>Finch &amp; Flight is a therapy practice for people navigating anxiety, relationship strain, and life transitions — a steady, unhurried space to work through what&apos;s actually going on.</strong>
+            <strong>
+              Finch &amp; Flight is a therapy practice for those seeking to
+              explore relational patterns, family-of-origin experiences, and
+              emotional pain. Together, we&apos;ll work to reshape familiar
+              narratives into ones that feel more aligned with your core
+              values and the way you wish to relate to yourself and others.
+            </strong>
           </p>
           <Link href="/contact" className={btnPrimary}>
             Request a free 15-min consult
