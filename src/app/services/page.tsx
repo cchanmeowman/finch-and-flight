@@ -82,11 +82,9 @@ export default function Services() {
         <div>
           <h2 className="mb-4 text-[1.6rem] font-semibold">Couples therapy</h2>
           <p className="mb-6 max-w-[54ch] leading-[1.65] text-muted">
-            For partners stuck in the same argument, rebuilding trust after a
-            betrayal, or wanting a stronger foundation before a big step
-            together. Sessions draw on Emotionally Focused Therapy to help
-            you see the pattern underneath the fight, not just the fight
-            itself.
+            For couples stuck in the same argument, working through betrayal,
+            or wanting a stronger foundation before taking the next step in
+            their relationship.
           </p>
           <dl className="grid max-w-[420px] grid-cols-[auto_1fr] gap-x-6 gap-y-2 border-t border-line pt-5 text-[0.9rem]">
             <dt className="text-muted">Session length</dt>
