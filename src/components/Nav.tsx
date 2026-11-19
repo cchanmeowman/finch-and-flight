@@ -55,7 +55,7 @@ export default function Nav() {
       <div className="flex items-center justify-between px-6 py-6 md:px-[6%]">
         <Link href="/" className="flex items-center gap-2.5 font-semibold text-lg">
           <FinchMark className="h-6 w-auto text-ink" />
-          Finch &amp; Flight
+          Finch &amp; Flight Psychotherapy
         </Link>
         <div className="flex items-center gap-8">
           <ul className="hidden md:flex gap-7 text-[0.9rem]">
