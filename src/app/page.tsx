@@ -18,11 +18,13 @@ export default function Home() {
           </h1>
           <p className="mb-7 max-w-[44ch] text-[1.02rem] leading-[1.65] text-muted">
             <strong>
-              Finch &amp; Flight is a therapy practice for those seeking to
-              explore relational patterns, family-of-origin experiences, and
-              emotional pain. Together, we&apos;ll work to reshape familiar
-              narratives into ones that feel more aligned with your core
-              values and the way you wish to relate to yourself and others.
+              Finch &amp; Flight Psychotherapy is a therapy practice for those
+              seeking to explore relational patterns, family-of-origin
+              experiences, and those looking to lessen their feelings of
+              distress, shame, and emotional pain. Together, we&apos;ll work to
+              reshape default narratives into ones that feel more aligned with
+              your core values and the way you wish to relate to yourself and
+              others.
             </strong>
           </p>
           <Link href="/contact" className={btnPrimary}>
