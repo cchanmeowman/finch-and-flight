@@ -39,19 +39,28 @@ export default function Fees() {
           <h2 className="mb-3 text-[1.2rem] font-semibold">Insurance</h2>
           <p className="text-[0.95rem] leading-[1.6] text-muted">
             <strong>
-              I&apos;m currently an out-of-network provider, which means I
-              don&apos;t bill insurance directly. Upon request, I can provide
-              a monthly superbill, or an itemized receipt you can submit to
-              your insurance company for possible reimbursement. I&apos;d
-              recommend calling your insurer beforehand to ask about your
-              out-of-network mental health benefits.
+              I&apos;m currently accepting both private pay and insurance
+              clients. See below for the current list of commercial insurance
+              providers.
             </strong>
           </p>
+          <strong className="mt-4 block text-[0.95rem] leading-[1.6] text-muted">
+            I&apos;m in network with.
+          </strong>
+          <ul className="ml-5 list-disc text-[0.95rem] leading-[1.6] text-muted">
+            <li><strong>Aetna</strong></li>
+            <li><strong>Ambetter</strong></li>
+            <li><strong>Carelon Behavioral Health</strong></li>
+            <li><strong>Cigna and Evernorth</strong></li>
+            <li><strong>Curative</strong></li>
+            <li><strong>Premera Blue Cross</strong></li>
+            <li><strong>Providence</strong></li>
+            <li><strong>Regence</strong></li>
+          </ul>
           <p className="mt-4 text-[0.95rem] leading-[1.6] text-muted">
             <strong>
-              I am in the process of being in-network with several commercial
-              insurance plans, including Aetna, UHC, Cigna, Regence, and a
-              handful of other providers.
+              I am currently in the process of being credentialed with United
+              Healthcare (UHC) Optum.
             </strong>
           </p>
         </div>
