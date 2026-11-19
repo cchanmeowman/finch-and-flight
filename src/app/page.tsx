@@ -98,7 +98,6 @@ export default function Home() {
             Grounded in relational work
           </p>
           <h2 className="mb-4 max-w-[20ch] text-[1.7rem] font-semibold text-balance">
-            Grounded in relational work
           </h2>
           <div className="max-w-[58ch] flex flex-col gap-5 leading-[1.65] text-muted">
             <p>
